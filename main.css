@@ -1,0 +1,186 @@
+:root {
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1.5;
+
+}
+
+@media only screen and
+(min-width: 700px) {
+  .intro {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .summary{
+   max-width: 75vw;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .preamble{
+   max-width: 75vw;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .mainsupporting{
+   max-width: 75vw;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .participation{
+   max-width: 75vw;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .benefits{
+   max-width: 75vw;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .requirements{
+   max-width: 75vw;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .select{
+   max-width: 75vw;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .design-selection{
+   max-width: 75vw;
+   margin-left: auto;
+ }
+ .design-archives{
+   max-width: 75vw;
+   margin-left: auto;
+   right: 3;
+ }
+ .zen-resources{
+   max-width: 75vw;
+   margin-left: auto;
+ }
+  p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and
+(min-width: 400px) {
+  .intro {
+  max-width: 50vw;
+  }
+ .summary{
+  max-width: 50vw;
+ }
+ .preamble{
+  max-width: 50vw;
+ }
+ .mainsupporting{
+  max-width: 50vw;
+ }
+ .participation{
+  max-width: 50vw;
+ }
+ .benefits{
+  max-width: 50vw;
+ }
+ .requirements{
+  max-width: 50vw;
+ }
+ .select{
+  max-width: 50vw;
+ }
+ .design-selection{
+   max-width:50vw;
+ }
+ .design-archives{
+  max-width: 50vw;
+ }
+ .zen-resources{
+  max-width: 50vw;
+ }
+  p{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+body{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("zen.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-color: #565C41;
+
+}
+
+h1, h2, h3{
+  font-family:'Fjalla One', sans-serif;
+  font-style: oblique;
+  line-height: 1.5em;
+  color: white;
+}
+
+h1{
+  font-size: 60px;
+  text-align: center;
+}
+
+h2{
+  font-size: 45px;
+  text-align: center;
+}
+
+h3{
+  font-size: 30px;
+  text-align: left;
+}
+
+html *{
+  box-sizing: border-box;
+}
+
+div.main{
+  padding: inherit;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+p{
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+p.explanation{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.design-selection ul, .zen-resources ul {
+  margin: 0;
+}
+
+.design-selection li, .design-archive li, .zen-resources li {
+  float: left;
+  width: 50%;
+  padding: 1.5em 10%;
+  border-top: solid 1px #838A79;
+  color: #C5CBC6;
+  font-style:italic;
+}
